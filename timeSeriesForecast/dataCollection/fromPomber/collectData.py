@@ -11,7 +11,7 @@ with open('data.json', 'w') as f:
 with open('data.json', 'r') as p:
     data = p.read()
     json_parsed = json.loads(data)
-pprint.pprint(json_parsed)    
+#pprint.pprint(json_parsed)    
 
 json_data = json_parsed['India']
 csv_data = open('csvData.csv', 'w')
