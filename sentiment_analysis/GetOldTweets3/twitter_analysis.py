@@ -13,7 +13,9 @@ def get_tweets():
     tweetCriteria = got.manager.TweetCriteria().setQuerySearch('corona virus')\
                                            .setSince("2020-01-01")\
                                            .setUntil("2020-08-31")\
-                                           .setMaxTweets(200)
+                                           .setLang("en")\
+                                            .setNear("India")\
+                                           .setTopTweets(200)
     tweets = got.manager.TweetManager.getTweets(tweetCriteria)
     text_tweets = [[tweet.text] for tweet in tweets]
     return text_tweets
