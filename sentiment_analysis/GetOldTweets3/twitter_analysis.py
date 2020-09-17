@@ -1,10 +1,8 @@
 import GetOldTweets3 as got
-
 import string
 import nltk
 nltk.download('vader_lexicon')
 from collections import Counter
-
 import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -13,7 +11,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 def get_tweets():
     tweetCriteria = got.manager.TweetCriteria().setQuerySearch('corona virus')\
-                                           .setSince("2019-08-01")\
+                                           .setSince("2020-01-01")\
                                            .setUntil("2020-08-31")\
                                            .setMaxTweets(200)
     tweets = got.manager.TweetManager.getTweets(tweetCriteria)
@@ -25,7 +23,7 @@ text_tweets =  get_tweets()
 length = len(text_tweets)
 print(length)
 
-for i in range(0, length):
+for i in range(length):
     text = text_tweets[i][0]+" "+text
     print(text)
 
