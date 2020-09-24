@@ -1,4 +1,6 @@
 
+#Time series forecasting of covid cases and sentiment analysis of tweets on covid
+
 # Time series forcast for the number of confirmed cases for India is done using LSTM.
 
 Time series data of the confirmed, deaths and recovered cases is collected from https://pomber.github.io/covid19/timeseries.json and https://github.com/CSSEGISandData/COVID-19
