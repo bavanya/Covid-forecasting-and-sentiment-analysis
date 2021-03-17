@@ -1,6 +1,6 @@
 
-#Time series forecasting of covid cases and
-#sentiment analysis of twitter tweets on covid
+# Time series forecasting of covid cases and
+#<span class="highlighter highlight-on">sentiment</span> analysis of twitter tweets on covid
 
 1. Time series forcast for the number of confirmed cases for India is done using:
     a) LSTM.
@@ -10,7 +10,7 @@
     e) ARIMA statistical model
     and the comparative performance analysis is done.
 
-Time series data of the confirmed, deaths and recovered cases is collected from https://pomber.github.io/covid19/timeseries.json and https://github.com/CSSEGISandData/COVID-19
+Time series data of the confirmed, deaths and recovered cases is <span class="highlighter highlight-on"><span class="highlighter highlight-on"><span class="highlighter highlight-on">collected</span></span></span> from https://pomber.github.io/covid19/timeseries.json and https://github.com/CSSEGISandData/COVID-19
 
 The collected data is visualized using matplolib and plotly for map visualization and the models are developed using scikit-learn and pytorch.
 
