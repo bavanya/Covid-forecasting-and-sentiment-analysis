@@ -1,6 +1,5 @@
 
-# Time series forecasting of covid cases and
-#<span class="highlighter highlight-on">sentiment</span> analysis of twitter tweets on covid
+# Time series forecasting of covid cases and sentiment analysis of tweets on covid.
 
 1. Time series forcast for the number of confirmed cases for India is done using:
     a) LSTM.
