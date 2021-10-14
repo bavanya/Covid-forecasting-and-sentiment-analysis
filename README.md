@@ -18,3 +18,7 @@ The collected data is visualized using matplolib and plotly for map visualizatio
 Tweets are collected using the tweepy API by the twitter developers and GetOldTweets3 package in python.
 
 NTLK library is used for the preprocessing and textblob and NLTK for the sentiment analysis
+
+**IDEA for future implementation:**
+
+Forecasting the sentiment of the tweets on covid. The idea is to basically combine the time series forecasting and sentiment analysis concepts to learn and predict how the people's sentiment on Covid is changing temporally.
