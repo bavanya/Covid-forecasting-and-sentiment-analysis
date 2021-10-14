@@ -17,7 +17,11 @@ The collected data is visualized using matplolib and plotly for map visualizatio
 
 Tweets are collected using the tweepy API by the twitter developers and GetOldTweets3 package in python.
 
-NTLK library is used for the preprocessing and textblob and NLTK for the sentiment analysis
+NTLK library is used for the preprocessing and textblob and NLTK for the sentiment analysis.
+
+**Future scope**
+
+The dataset used doesn't include spatial information. Future work would be location specific forecasting.
 
 **IDEA for future implementation:**
 
